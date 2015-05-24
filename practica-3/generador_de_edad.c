@@ -48,17 +48,23 @@ int main(){
         return 0;
     }
     if(anionaci==anioact){
-        printf("\n¿Usted es un recien nacido.\n");
+        printf("\nUsted no lleva un año de haber nacido.\n");
         return 0;
     }
     if(anionaci!=anioact){
-       edad = anioact - anionaci; // 2015 - 1997 = 18
+       edad = anioact - anionaci;
+       if(mesact<mesnaci || diaact<dianaci){
+            edad--;
+       }
     }
     if(anioact>2015){
         printf("\nUsted tendrá %d años de edad.\n",edad);
     }
-    if(anioact<=2015){
+    if(anioact==2015){
         printf("\nUsted tiene %d años de edad.\n",edad);
+    }
+    if(anioact<2015){
+        printf("\nUsted tuvo %d años de edad.\n",edad);
     }
     return 0;
 }
