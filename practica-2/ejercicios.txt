@@ -1,0 +1,21 @@
+1)Escribir un programa que tome como entrada un valor entre 1 y 7 e imprime el dia de la semana 
+que corresponde al numero que se ingreso. Si la entrada no es valida mostrar un mensaje.
+
+2)Realizar un programa que sume todos los numeros impares del 1 al 1000.
+
+3)La empresa GAME tiene 200 empleados .Para cada empleado se lee el nombre, departamento y sueldo.
+Hacer un programa que lea esa informacion e imprima el nombre, departamento, sueldo actual, aumento y sueldo nuevo de acuerdo a:
+
+SALARIO ACTUAL                  AUMENTO%
+
+
+Menor o igual a 900.000 			  20%
+
+Entre 900.000 y 1.300.000			  10%	
+
+Entre 1.300.000 y 1.800.000			5%
+
+Mayor a 1.800.000 				      4%
+
+
+4)Escribir un programa que busque la siguiente serie: 1*1!+2*2!+3*3!+4*4!..n*n!
