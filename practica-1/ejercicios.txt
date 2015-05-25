@@ -1,0 +1,7 @@
+1)Realize un programa que muestre los números Armstrong que existen desde el 1 hasta un número n de entrada.
+
+2)Realze un programa que demuestre si un número pertenece a la serie de Fibonacci, si no es así muestre el número mayor siguiente.
+
+3)Muestre las tablas de multiplicación.
+
+4)Genere la siguiente serie: -2 5 8 -11 -14 17 20 -23 -26.
