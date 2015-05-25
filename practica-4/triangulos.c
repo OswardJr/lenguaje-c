@@ -14,7 +14,7 @@
  */
 #include <stdio.h>
 
-int main(int argc, char **argv)
+int main()
 {
 	int x,y,z;
 		printf("\nintroduzca el valor del lado A\t");
