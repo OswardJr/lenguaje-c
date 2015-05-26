@@ -4,7 +4,7 @@ int main(){
     printf("Ingrese un número entero: ");
     scanf("%d",&n);
     if(n==0){
-        printf("No existen números Armstrong.");
+        printf("No existen números Armstrong hasta este número.");
         return 0;
     }
     else{
