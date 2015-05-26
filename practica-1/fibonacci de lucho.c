@@ -1,19 +1,21 @@
 #include <stdio.h>
 int main(){
 
-int num,i,ant1=0,ant2=1,fibo=0;
+int num,ant1=0,ant2=1,fibo=0;
 
     printf("introduzca el numero que quiere saber si es fibonacci: ");
         scanf("%d",&num);
 
-    for (i=0; i <= fibo; i++){
+    do{
 
         fibo=ant1 + ant2;
         ant1=ant2;
         ant2=fibo;
-        printf("%d ,",fibo);
-       }
-        if (num==ant2)
+        
+       
+       }while(fibo<num);
+        
+        if (num==fibo)
             printf("pertenece a la serie");
 
             else
