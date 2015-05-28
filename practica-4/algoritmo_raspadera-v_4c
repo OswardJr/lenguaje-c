@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+	int a=1 ,b=0 , c, d , acum ,final=0 , fibo=0;
+		printf("esta es la serie original:\n");
+			for(acum=1;acum<=20;acum++){
+				printf("%d ",fibo);
+				fibo= a + b;
+				a = b;
+				b = fibo;
+	}
+  	printf("\nesta es la serie invertida:\n");
+		c=b;
+		d=a;		
+			for(acum=20;acum>=1;acum--){
+				final= c - d;		
+				c = d;
+				d = final;
+				printf("%d ",c);		
+	}	
+	return 0;
+}
+
